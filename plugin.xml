@@ -4,9 +4,9 @@
            version="1.0.0" >
 
   <name>DisableBitcode</name>
-  <description>Cordova/PhoneGap Plugin to disable ios bitcode build setting</description>
+  <description>Cordova plugin to disable bitcode in iOS build settings and bundles xcode npm package</description>
   <license>Apache-2.0</license>
-  <keywords>cordova,phonegap,bitcode</keywords>
+  <keywords>cordova,phonegap,bitcode,plugin</keywords>
   <repo>https://github.com/csantanapr/cordova-plugin-cs-disable-bitcode</repo>
 
   <platform name="ios">
