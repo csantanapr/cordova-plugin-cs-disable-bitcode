@@ -10,7 +10,7 @@ var xcode = require('xcode');
 
 function addBuildProperty(context, prop, value, build_name){
   var projectRoot = path.resolve(context.opts.projectRoot);
-  var ConfigParser = context.requireCordovaModule('cordova-lib').configparser
+  var ConfigParser = context.requireCordovaModule('cordova-lib').configparser;
   var config = new ConfigParser(path.join(projectRoot, 'config.xml'));
   var projectName = config.name();
   var projectPath = path.join(projectRoot, 'platforms/ios/', projectName+'.xcodeproj','project.pbxproj');
@@ -23,7 +23,7 @@ function addBuildProperty(context, prop, value, build_name){
 }
 function removeBuildProperty(context, prop, build_name){
   var projectRoot = path.resolve(context.opts.projectRoot);
-  var ConfigParser = context.requireCordovaModule('cordova-lib').configparser
+  var ConfigParser = context.requireCordovaModule('cordova-lib').configparser;
   var config = new ConfigParser(path.join(projectRoot, 'config.xml'));
   var projectName = config.name();
   var projectPath = path.join(projectRoot, 'platforms/ios/', projectName+'.xcodeproj','project.pbxproj');

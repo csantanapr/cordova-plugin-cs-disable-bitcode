@@ -1,9 +1,21 @@
 {
   "name": "cordova-plugin-cs-disable-bitcode",
   "version": "1.0.0",
-  "description": "Disable bitcode in iOS build settings",
+  "description": "Disable bitcode in iOS build settings includes xcode module",
+  "homepage": "https://github.com/csantanapr/cordova-plugin-cs-disable-bitcode",
+  "author": {
+    "name": "Carlos Santana",
+    "url": "https://github.com/cordova-plugin-cs-disable-bitcode"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/csantanapr/cordova-plugin-cs-disable-bitcode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/csantanapr/cordova-plugin-cs-disable-bitcode/issues"
+  },
   "cordova": {
-    "id": "cordova-plugin-disable-bitcode",
+    "id": "cordova-plugin-cs-disable-bitcode",
     "platforms": [
       "ios"
     ]
@@ -16,9 +28,8 @@
     "cordova-ios",
     "cordova:plugin"
   ],
-  "author": {
-    "name": "Carlos Santana",
-    "url": "http://twitter.com/csantanapr"
+  "scripts": {
+    "test": "jshint src"
   },
   "license": "Apache-2.0",
   "dependencies": {
@@ -26,5 +37,8 @@
   },
   "bundledDependencies": [
     "xcode"
-  ]
+  ],
+  "devDependencies": {
+    "jshint": "^2.9.1"
+  }
 }
