@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-cs-disable-bitcode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cordova plugin to disable bitcode in iOS build settings and bundles xcode npm package",
   "homepage": "https://github.com/csantanapr/cordova-plugin-cs-disable-bitcode",
   "author": {

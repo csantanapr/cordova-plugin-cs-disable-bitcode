@@ -20,7 +20,7 @@ cordova plugin add cordova-plugin-cs-disable-bitcode
 ```
 Using cordova CLI from git 
 ```
-cordova plugin add https://github.com/cordova-plugin-cs-disable-bitcode
+cordova plugin add https://github.com/csantanapr/cordova-plugin-cs-disable-bitcode
 ```
 
 ## License
