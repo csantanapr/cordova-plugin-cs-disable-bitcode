@@ -14,9 +14,13 @@ for architecture arm64 clang: error: linker command failed with exit code 1
 
 ## Installation
 
-Using cordova CLI
+Using cordova CLI from npm
 ```
-cordova plugin add https://github.com/csantanapr/cordova-plugin-cs-disable-bitcode
+cordova plugin add cordova-plugin-cs-disable-bitcode
+```
+Using cordova CLI from git 
+```
+cordova plugin add https://github.com/cordova-plugin-cs-disable-bitcode
 ```
 
 ## License
