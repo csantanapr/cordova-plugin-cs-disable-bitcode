@@ -1,6 +1,6 @@
 # cordova-plugin-cs-disable-bitcode
 
-> [Cordova plugin](https://www.npmjs.com/package/cordova-plugin-cs-disable-bitcode) to disable bitcode in iOS build settings.
+> [Cordova plugin](https://github.com/csantanapr/cordova-plugin-cs-disable-bitcode) to disable bitcode in iOS build settings.
 
 > Why this plugin ?
 Bitcode is not supported in every Cordova plugins and if you're using one of these, you will get something like the following error :
@@ -16,7 +16,7 @@ for architecture arm64 clang: error: linker command failed with exit code 1
 
 Using cordova CLI
 ```
-cordova plugin add cordova-plugin-disable-bitcode
+cordova plugin add https://github.com/csantanapr/cordova-plugin-cs-disable-bitcode
 ```
 
 ## License
